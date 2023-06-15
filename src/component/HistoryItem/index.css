@@ -1,0 +1,50 @@
+.list-item {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+  margin-top: 13px;
+  margin-right: 15px;
+  margin-left: 50px;
+}
+
+.title {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  margin-right: 15px;
+}
+
+.domain {
+  margin-top: 15px;
+  color: #64748b;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.delete {
+  height: 24px;
+  width: 24px;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 200px;
+}
